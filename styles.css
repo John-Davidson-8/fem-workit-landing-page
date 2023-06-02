@@ -106,6 +106,7 @@ body {
 }
 header {
   background-color: var(--primary-darkPurple);
+  /* position: relative; */
 }
 .top {
   display: flex;
@@ -155,7 +156,7 @@ h1 {
   font-weight: 700;
 }
 .hero-img {
-  /* margin: 10rem auto; */
+  /* position: absolute; */
 }
 
 .footer {
