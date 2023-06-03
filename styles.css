@@ -107,6 +107,9 @@ body {
 .top-container {
   background-color: var(--primary-darkPurple);
   padding: 2rem 1rem;
+  position: relative;
+  border-bottom-left-radius: 50% 3%;
+  border-bottom-right-radius: 50% 3%;
 }
 .top {
   display: flex;
@@ -150,6 +153,10 @@ h1 {
   text-decoration: none;
   color: var(--primary-darkPurple);
   font-weight: 700;
+}
+.hero-img {
+  display: block;
+  margin-top: 4rem;
 }
 .footer {
   /* margin: 0 1rem; */
