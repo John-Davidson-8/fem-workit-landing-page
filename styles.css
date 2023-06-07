@@ -88,7 +88,7 @@ select {
   --bodyFont: "Manrope", sans-serif;
 }
 /* global classes */
-/* .section-center {
+.section-center {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -97,36 +97,33 @@ select {
   .section-center {
     width: 95vw;
   }
-} */
+}
+
 /* general styling */
 body {
-  font-family: var(--bodyFont);
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.75rem;
-  color: var(--primary-davysGrey);
   min-height: 100vh;
+  font-family: var(--bodyFont);
+  background-color: var(--primary-ghostWhite);
+  margin: 1rem;
 }
-.container {
+.top-container {
   position: relative;
-  background: mediumslateblue;
   z-index: -2;
-
-  ::before {
-    content: "";
-    position: absolute;
-    background: lavender;
-    width: 100%;
-    height: 70%;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    border-bottom-left-radius: 50% 5%;
-    border-bottom-right-radius: 50% 5%;
-  }
 }
-.content {
+.background {
+  content: "";
+  position: absolute;
+  background: var(--primary-darkPurple);
+  width: 100%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-bottom-left-radius: 50% 5%;
+  border-bottom-right-radius: 50% 5%;
+}
+.top-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,4 +131,52 @@ body {
 }
 h1 {
   margin-bottom: 0;
+}
+img {
+  width: 20rem;
+  height: 11.5rem;
+}
+.top-logo {
+  width: 6rem;
+  height: 1.53rem;
+}
+.top-cta {
+  color: var(--primary-white);
+  text-decoration: underline;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.top-logo {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.top-cta {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.title-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+h1 {
+  font-size: 3rem;
+  color: var(--primary-white);
+  text-align: center;
+  font-family: var(--headingFont);
+  max-width: 21.5rem;
+  margin-top: 4rem;
+  line-height: 3.12rem;
+  font-weight: 500;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: var(--primary-eucaplyptus);
+  font-weight: 700;
+  border: none;
 }
