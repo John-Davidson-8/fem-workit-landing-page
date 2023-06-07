@@ -120,8 +120,8 @@ body {
   left: 0;
   right: 0;
   z-index: -1;
-  border-bottom-left-radius: 50% 5%;
-  border-bottom-right-radius: 50% 5%;
+  border-bottom-left-radius: 50% 3%;
+  border-bottom-right-radius: 50% 3%;
 }
 .top-content {
   display: flex;
@@ -150,12 +150,12 @@ img {
   font-size: 1rem;
 }
 .top-logo {
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-left: 0.75rem;
 }
 .top-cta {
-  margin-top: 1rem;
-  margin-right: 1rem;
+  margin-top: 2rem;
+  margin-right: 0.75rem;
 }
 .title-column {
   display: flex;
@@ -168,7 +168,7 @@ h1 {
   color: var(--primary-white);
   text-align: center;
   font-family: var(--headingFont);
-  max-width: 21.5rem;
+  max-width: 23rem;
   margin-top: 4rem;
   line-height: 3.12rem;
   font-weight: 500;
@@ -179,4 +179,5 @@ h1 {
   background-color: var(--primary-eucaplyptus);
   font-weight: 700;
   border: none;
+  margin-bottom: 2rem;
 }
