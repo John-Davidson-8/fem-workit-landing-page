@@ -83,6 +83,7 @@ select {
   --primary-davysGrey: #584d62;
   --primary-ghostWhite: #fcf8ff;
   --primary-white: #ffffff;
+
   /* fonts */
   --headingFont: "Fraunces", serif;
   --bodyFont: "Manrope", sans-serif;
@@ -180,4 +181,48 @@ h1 {
   font-weight: 700;
   border: none;
   margin-bottom: 2rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8rem;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+ul {
+  list-style: none;
+  padding: 2rem;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.info-number {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  color: var(--primary-darkPurple);
+  font-size: 1.25rem;
+  font-family: var(--headingFont);
+  font-weight: 600;
+  text-align: center;
+  border: solid var(--primary-davysGrey) 0.1rem;
+  border-radius: 50%;
+}
+h2 {
+  line-height: 2.25rem;
+  font-size: 1.75rem;
+  font-family: var(--headingFont);
+  font-weight: 600;
+}
+.description {
+  font-family: var(--bodyFont);
+  font-size: 1rem;
+  text-align: center;
+  color: var(--primary-davysGrey);
 }
